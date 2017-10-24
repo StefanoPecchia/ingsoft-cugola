@@ -71,7 +71,7 @@ public class IntegerStackWException {
     */
     public class FullException extends Exception {
         public FullException() {
-            super("The stack is full!");
+            super("The stack is full!"); //è exception
         }
 
         public int getCapacity() {
