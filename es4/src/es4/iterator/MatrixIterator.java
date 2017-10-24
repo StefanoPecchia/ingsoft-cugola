@@ -25,7 +25,7 @@ public class MatrixIterator<T> implements Iterator<T> {
     }
 
     @Override
-    public T next() {
+    public T next() { // può avere qualsiasi iterazione
         T nextElement;
         try {
             nextElement = matrix.get(currentRow, currentColumn);
