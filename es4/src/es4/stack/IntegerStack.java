@@ -22,7 +22,7 @@ public class IntegerStack {
     }
 
     public Integer peek() {
-        if (ints.isEmpty()) {
+        if (ints.isEmpty()) { // eccezioni checked
             return null;
         }
 
